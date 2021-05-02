@@ -1,8 +1,0 @@
-Since I have started my Ph.D. program in 2016, I have endlessly researched the problem. 
-"How to predict the oil production decline curve before actual drilling takes place?"
-I have researched this topic for 4 years with my advisor, University Distinguished Professor Dr. Bani Mallick while getting advice from University Distinguished Professor Dr. Datta-gupta in petroleum engineering at Texas A&M University.
-There were many bottlenecks as I do not major in petroleum engineering.
-However, I persistently tried to solve this problem, and fortunately, my paper titled "Bayesian hierarchical modeling: application towards production results in the Eagle Ford Shale of South Texas" has gotten through a `minor' revision in a statistics journal.
-We believe that it will be published in early of the next year, and also open our codes.
-Please visit https://github.com/yain22/SWM to see my devoted work.
-Now, as my graduation data gets closer day by day, I wish to become a domain expert who can make a real contribution at Oxy.
