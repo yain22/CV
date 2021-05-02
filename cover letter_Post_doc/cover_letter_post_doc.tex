@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plain Cover Letter
+% LaTeX Template
+% Version 1.0 (28/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% http://www.rpi.edu/dept/arc/training/latex/resumes/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{letter} % Default font size of the document, change to 10pt to fit more text
+\usepackage{graphicx}
+\usepackage{newcent} % Default font is the New Century Schoolbook PostScript font 
+\usepackage[final]{hyperref} % adds hyper links inside the
+\usepackage{verbatim,color,amssymb,epsfig}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{tikz}
+
+%\usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+
+% Margins
+\topmargin=-1in % Moves the top of the document 1 inch above the default
+\textheight=8.5in % Total height of the text on the page before text goes on to the next page, this can be increased in a longer letter
+\oddsidemargin=-10pt % Position of the left margin, can be negative or positive if you want more or less room
+\textwidth=6.5in % Total width of the text, increase this if the left margin was decreased and vice-versa
+
+\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+% Hiring manager name
+% Company
+} 
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\large\bf Se Yoon Lee Ph.D. Candidate\\ % Your name
+%\vspace{20pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+1001 Harvey Rd Apt 68
+ \\ College Station, TX 77840, U.S.A.\\(+1) (979) 888-4107% Your address and phone number
+\end{center} 
+\vfill
+
+\signature{Se Yoon Lee} % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Professor Mirabela Rusu,} 
+
+Please kindly accept an application from a very enthusiastic and self-motivated Ph.D. student for a postdoc position at the Laboratory for Integrative Personalized Medicine (PIMed). I am a fifth-year Ph.D. student, majoring in Statistics at Texas A\&M University. My expected graduation is on May 8th, 2021. I am eager to start the position right after graduation and join your team.
+
+During my Ph.D. program, I have been explored and researched various Bayesian statistical models, with the purpose of application towards diverse industrial problems, arising from bio-medical, health-care, oil \& gas, wind energy industries, and the COVID-19 outbreak. I also had opportunities to explore real-world problems through internships at EMD Serono and Novartis International AG. Please visit the following websites to see my internship works: \href{https://sites.google.com/view/seyoonlee/home/projects/merck-group-summer-internship-project?authuser=0}{\textcolor{gray}{$\spadesuit$Click:Work at EMD Serono $\spadesuit$}}
+\href{https://sites.google.com/view/seyoonlee/home/projects/novartis-summer-internship-project?authuser=0#h.dfc3zhswkx8m}{\textcolor{brown}{$\spadesuit$ Click: Work at Novartis $\spadesuit$}}. 
+
+During the hands-on experiences, a common challenge that I have faced was the complication of the modern data structure such as enormous volume, large dimensionality, and multi-level structures. Broadly speaking, I tackle them with developing a Bayesian hierarchical model endowed with efficient computational techniques such as MCMC sampler or variational inference, and I usually develop relevant R codes from a scratch.
+
+Now, I want to transit my research skill to machine learning in medical imaging as your postdoc. I believe that I can be successful not only due to my statistical knowledge but also due to my passion to enhance the quality of patients' life. Additionally, as still I have around six months to start this new job, I have time to study relevant literature to start a new project right after joining your team. Also, my previous skill set, dealing with complicated data structure, will help develop a new model, particularly when data has some spatial or temporal information.
+
+I wish to research human disease during my lifetime. And I think that I should be trained by a domain expert like you, and this postdoc position is the best position to me to start my career. For the two references, please contact, Dr. Bani Mallick (bmallick@stat.tamu.edu) and Dr. Debdeep Pati (debdeep@stat.tamu.edu). Thank you very much for reading the cover letter, and I am looking forward to
+hearing back from you.
+
+\closing{Sincerely yours,}
+\encl{Curriculum vitae} % List your enclosed documents here, comment this out to get rid of the "encl:"
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
