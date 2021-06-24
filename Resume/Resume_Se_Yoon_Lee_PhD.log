@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.15)  18 JUN 2021 08:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.15)  24 JUN 2021 07:29
 entering extended mode
 **./Resume_Se_Yoon_Lee_PhD.tex
 (Resume_Se_Yoon_Lee_PhD.tex
@@ -327,7 +327,7 @@ Here is how much of TeX's memory you used:
  22272 multiletter control sequences out of 15000+200000
  539751 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,596b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,6n,77p,596b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/t
@@ -335,9 +335,9 @@ ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Resume_Se_Yoon_Lee_PhD.pdf (3 pages, 134607 bytes).
+Output written on Resume_Se_Yoon_Lee_PhD.pdf (3 pages, 133921 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
