@@ -1,18 +1,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Medium Length Professional CV
 % LaTeX Template
-% Version 2.0 (8/5/13)
+% Version 3.0 (December 17, 2022)
 %
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
 %
 % Original author:
 % Trey Hunner (http://www.treyhunner.com/)
 %
-% Important note:
-% This template requires the resu	me.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -20,23 +21,33 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
 
-\usepackage[left=0.7in, top=1.3in,right=0.7in,bottom=1.3in]{geometry} % Document margins
+\usepackage{ebgaramond} % Use the EB Garamond font
 \usepackage{hyperref}
 \usepackage{color}
 
-\name{Se Yoon Lee} % Your name
-\address{
-1859 S Union St 37 Anaheim, CA, 92805
-$\diamond$
-979 888 4107
-}
-\address{
-seyoonlee.stat.math@gmail.com
-$\diamond$
-\href{https://sites.google.com/view/seyoonlee}{https://sites.google.com/view/seyoonlee}
-} % Your phone number and email
+
+%------------------------------------------------
+
+\name{Se Yoon Lee} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{1859 S Union St 37 Anaheim, CA, 92805} % Main address
+
+\address{(979)~$\cdot$~888~$\cdot$~4107 \\ seyoonlee.stat.math@gmail.com} % Contact information
+
+\address{\href{https://sites.google.com/view/seyoonlee}{https://sites.google.com/view/seyoonlee}}
+
+
+
+%----------------------------------------------------------------------------------------
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -44,41 +55,24 @@ $\diamond$
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-%%%%%%%%%%%%%%%%%%%%%%%%
-{\bf Ph.D. Statistics, Texas A\&M University, College Station, U.S.A.} \hfill {\em May 2021} \\ 
+	
+	\textbf{Ph.D. Statistics, Texas A\&M University, College Station, U.S.A.} \hfill \textit{May 2021} \\ 
 Advisor: Prof. Bani K. Mallick
-\hfill {Overall GPA: 3.78/4}\\
-%; Mentor: Debdeep Pati
-%Dissertation: ``Bayesian Hierarchical Modeling: Application towards Complex and High-dimensional Data"
-%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%
-{\bf M.A. Applied Statistics, Yonsei University, Seoul, South Korea} \hfill {\em Feb 2016} \\ 
+\hfill {Overall GPA: 3.78/4}
+\\
+	\textbf{M.A. Applied Statistics, Yonsei University, Seoul, South Korea} \hfill {\em Feb 2016} \\ 
 Advisor: Prof. Joseph H.T. Kim
 \hfill {Overall GPA: 3.86/4}
 \\
-%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%
 {\bf B.S. Mathematics, Yonsei University, Seoul, South Korea} \hfill {\em Feb 2013} \\ 
 Graduated with the 2nd highest class rank out of 43 students
-\hfill {Overall GPA: 3.84/4}\\
-{Grades for core mathematics courses:
-\href{https://www.dropbox.com/s/jjjwq3e69xloi96/subjects%28math%29.pdf?dl=0}
-{\underline{\textbf{[Click]}}}}
-%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill {Overall GPA: 3.84/4}
 \end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	Research interest
-%----------------------------------------------------------------------------------------
-
 
 \begin{rSection}{Research interest}
-\textbf{Clinical Trials, Bayesian Adaptive Design, Group Sequential Design, Survival Analysis, Machine Learning (Artificial Intelligence \& Deep Learning)}
+Clinical Trials, Bayesian Adaptive Design, Group Sequential Design, Survival Analysis, Machine Learning (Artificial Intelligence \& Deep Learning)
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	Dissertation and Thesis\frac{•}{•}
-%----------------------------------------------------------------------------------------
 
 \begin{rSection}{Dissertation and Thesis}
 \item[$\cdot$] ``Bayesian Hierarchical Modeling: Application towards Complex and High-dimensional Data,''
@@ -95,7 +89,6 @@ Graduated with the 2nd highest class rank out of 43 students
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-
 \begin{rSection}{WORK Experience}
 
 
@@ -274,6 +267,13 @@ Given to graduate students who make a presentation at the conference
 \end{rSection}
 
 \begin{rSection}{Invited talks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[$\cdot$]
+{``Important Statistical Issues in Bayesian Medical Device Trials in the Regulatory Settings"}  \hfill {\em Apr 2023}
+\\
+Organization: Johnson \& Johnson 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item[$\cdot$]
 {``Prediction of best-corrected visual acuity for wet age-related macular degeneration}  \hfill {\em Aug 2020}
