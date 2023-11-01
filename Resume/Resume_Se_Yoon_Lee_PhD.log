@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  24 OCT 2023 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  31 OCT 2023 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,12 +417,7 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/it' will be
 {C:/Users/seyoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/seyo
 o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{C:/U
 sers/seyoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.
-enc}]
-
-Package hyperref Warning: Suppressing link with empty target on input line 220.
-
-
-[2] [3] [4] (Resume_Se_Yoon_Lee_PhD.aux)
+enc}] [2] [3] [4] (Resume_Se_Yoon_Lee_PhD.aux)
 Package rerunfilecheck Info: File `Resume_Se_Yoon_Lee_PhD.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -445,9 +440,9 @@ cmmi8.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 160299 bytes).
+Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 160738 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
