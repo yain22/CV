@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  21 NOV 2023 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  27 NOV 2023 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,7 +417,12 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/it' will be
 {C:/Users/seyoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/seyo
 o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{C:/U
 sers/seyoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.
-enc}] [2] [3] [4] (Resume_Se_Yoon_Lee_PhD.aux)
+enc}] [2]
+
+Package hyperref Warning: Suppressing link with empty target on input line 251.
+
+
+[3] [4] (Resume_Se_Yoon_Lee_PhD.aux)
 Package rerunfilecheck Info: File `Resume_Se_Yoon_Lee_PhD.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -429,7 +434,7 @@ Here is how much of TeX's memory you used:
  30435 multiletter control sequences out of 15000+600000
  523977 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,76p,526b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,76p,526b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ebgaramond/E
 BGaramond-Bold.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/ebgaramond/EBGaramond-BoldItalic.pfb><C:/Users/seyoo/AppData/Local/Program
@@ -440,7 +445,7 @@ cmmi8.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 161583 bytes).
+Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 161634 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
