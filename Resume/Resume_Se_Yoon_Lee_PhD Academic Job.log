@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  6 JUN 2024 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  6 JUN 2024 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Resume_Se_Yoon_Lee_PhD.tex
-(Resume_Se_Yoon_Lee_PhD.tex
+**"./Resume_Se_Yoon_Lee_PhD Academic Job.tex"
+(Resume_Se_Yoon_Lee_PhD Academic Job.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (resume.cls
 Document Class: resume 2022/12/17 v3.0 Resume class
@@ -303,8 +303,8 @@ tex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
-) (Resume_Se_Yoon_Lee_PhD.aux)
-\openout1 = `Resume_Se_Yoon_Lee_PhD.aux'.
+) (Resume_Se_Yoon_Lee_PhD Academic Job.aux)
+\openout1 = `"Resume_Se_Yoon_Lee_PhD Academic Job.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -387,9 +387,10 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \c@mv@tabular=\count282
 \c@mv@boldtabular=\count283
 Package hyperref Info: Link coloring OFF on input line 51.
-(Resume_Se_Yoon_Lee_PhD.out) (Resume_Se_Yoon_Lee_PhD.out)
+(Resume_Se_Yoon_Lee_PhD Academic Job.out)
+(Resume_Se_Yoon_Lee_PhD Academic Job.out)
 \@outlinefile=\write3
-\openout3 = `Resume_Se_Yoon_Lee_PhD.out'.
+\openout3 = `"Resume_Se_Yoon_Lee_PhD Academic Job.out"'.
 
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 51.
@@ -409,9 +410,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 57.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 66.
+(Font)              scaled to size 10.95pt on input line 59.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 103.
+(Font)              scaled to size 10.95pt on input line 96.
 [1
 
 {C:/Users/seyoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/seyo
@@ -419,22 +420,22 @@ o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{C:/U
 sers/seyoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.
 enc}] [2]
 
-Package hyperref Warning: Suppressing link with empty target on input line 239.
+Package hyperref Warning: Suppressing link with empty target on input line 232.
 
 
-[3] [4] (Resume_Se_Yoon_Lee_PhD.aux)
-Package rerunfilecheck Info: File `Resume_Se_Yoon_Lee_PhD.out' has not changed.
-
+[3] [4] (Resume_Se_Yoon_Lee_PhD Academic Job.aux)
+Package rerunfilecheck Info: File `"Resume_Se_Yoon_Lee_PhD Academic Job".out' h
+as not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10137 strings out of 476331
- 167845 string characters out of 5787765
- 1869660 words of memory out of 5000000
- 30435 multiletter control sequences out of 15000+600000
+ 10139 strings out of 476331
+ 168189 string characters out of 5787765
+ 1868660 words of memory out of 5000000
+ 30437 multiletter control sequences out of 15000+600000
  523977 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,76p,526b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,76p,541b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ebgaramond/E
 BGaramond-Bold.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/ebgaramond/EBGaramond-BoldItalic.pfb><C:/Users/seyoo/AppData/Local/Program
@@ -445,7 +446,8 @@ cmmi8.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 165188 bytes).
+Output written on "Resume_Se_Yoon_Lee_PhD Academic Job.pdf" (4 pages, 164328 by
+tes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
