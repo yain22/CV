@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  6 JUN 2024 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  16 JUN 2024 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,6 +423,10 @@ enc}] [2]
 Package hyperref Warning: Suppressing link with empty target on input line 232.
 
 
+
+Package hyperref Warning: Suppressing link with empty target on input line 257.
+
+
 [3] [4] (Resume_Se_Yoon_Lee_PhD Academic Job.aux)
 Package rerunfilecheck Info: File `"Resume_Se_Yoon_Lee_PhD Academic Job".out' h
 as not changed.
@@ -446,7 +450,7 @@ cmmi8.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Resume_Se_Yoon_Lee_PhD Academic Job.pdf" (4 pages, 164328 by
+Output written on "Resume_Se_Yoon_Lee_PhD Academic Job.pdf" (4 pages, 164883 by
 tes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
