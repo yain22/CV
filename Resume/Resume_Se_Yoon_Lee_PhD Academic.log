@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  11 JUL 2024 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.27)  21 JUL 2024 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,7 +419,7 @@ o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{C:/U
 sers/seyoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.
 enc}] [2]
 
-Package hyperref Warning: Suppressing link with empty target on input line 255.
+Package hyperref Warning: Suppressing link with empty target on input line 254.
 
 
 [3] [4] (Resume_Se_Yoon_Lee_PhD Academic.aux)
@@ -430,7 +430,7 @@ ot changed.
 Here is how much of TeX's memory you used:
  10139 strings out of 476331
  168109 string characters out of 5787765
- 1867660 words of memory out of 5000000
+ 1868660 words of memory out of 5000000
  30437 multiletter control sequences out of 15000+600000
  523977 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -445,7 +445,7 @@ cmmi8.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/seyoo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Resume_Se_Yoon_Lee_PhD Academic.pdf" (4 pages, 165259 bytes)
+Output written on "Resume_Se_Yoon_Lee_PhD Academic.pdf" (4 pages, 165424 bytes)
 .
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
