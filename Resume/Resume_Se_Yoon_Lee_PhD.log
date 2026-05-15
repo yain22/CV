@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.8)  14 MAY 2026 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.8)  15 MAY 2026 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -276,14 +276,14 @@ Package color Info: Driver file: pdftex.def on input line 149.
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-OsF on i
-nput line 51.
+nput line 55.
 
 (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-OsF.fd
 File: OT1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for OT1/EBGar
 amond-OsF.
 )
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 55.
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
@@ -293,24 +293,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./Resume_Se_Yoon_Lee_PhD.aux)
 \openout1 = `Resume_Se_Yoon_Lee_PhD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -370,32 +370,32 @@ e
 
 \c@mv@tabular=\count293
 \c@mv@boldtabular=\count294
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 55.
 (./Resume_Se_Yoon_Lee_PhD.out) (./Resume_Se_Yoon_Lee_PhD.out)
 \@outlinefile=\write3
 \openout3 = `Resume_Se_Yoon_Lee_PhD.out'.
 
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 51.
+(Font)              scaled to size 20.74pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 51.
+(Font)              scaled to size 20.74pt on input line 55.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 51--51
+Overfull \hbox (30.0pt too wide) in paragraph at lines 55--55
 [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 51.
+(Font)              <10.95> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 51.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <6> on input line 55.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 57.
+(Font)              scaled to size 10.95pt on input line 61.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 59.
+(Font)              scaled to size 10.95pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 96.
+(Font)              scaled to size 10.95pt on input line 101.
 
 
 [1
@@ -405,14 +405,12 @@ texmf-dist/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2024/texmf-dis
 t/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc}]
 
 [2]
-Overfull \hbox (4.5777pt too wide) in paragraph at lines 251--254
-\OT1/EBGaramond-OsF/m/n/10.95 for Semi-Supervised Mean Es-ti-ma-tion'', \OT1/EB
-Garamond-OsF/m/it/10.95 Forty-third In-ter-na-tional Con-fer-ence on Ma-chine L
-earn-ing (Just Ac-cepted; Among
- []
+
+Package hyperref Warning: Suppressing link with empty target on input line 296.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 259.
+
+Package hyperref Warning: Suppressing link with empty target on input line 299.
 
 
 
@@ -431,7 +429,7 @@ Package rerunfilecheck Info: File `Resume_Se_Yoon_Lee_PhD.out' has not changed.
 Here is how much of TeX's memory you used:
  10105 strings out of 473250
  161013 string characters out of 5722014
- 573124 words of memory out of 5000000
+ 573253 words of memory out of 5000000
  33186 multiletter control sequences out of 15000+600000
  569759 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -441,14 +439,13 @@ Here is how much of TeX's memory you used:
 c.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
 ic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Reg
 ular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive
-/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2024/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 156521 bytes).
+c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Resume_Se_Yoon_Lee_PhD.pdf (4 pages, 146761 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 143 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
