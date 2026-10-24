@@ -1,523 +1,174 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 3.0 (December 17, 2022)
-%
-% This template originates from:
-% https://www.LaTeXTemplates.com
-%
-% Author:
-% Vel (vel@latextemplates.com)
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%
-% License:
-% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[
-%a4paper, % Uncomment for A4 paper size (default is US letter)
-11pt, % Default font size, can use 10pt, 11pt or 12pt
-]{resume} % Use the resume class
-
-\usepackage{ebgaramond} % Use the EB Garamond font
+% Se Yoon Lee - research resume for academic and industry applications.
+% Revised 2026-10-23 from the user's June 2026 resume.
+% Standalone source; compile with pdflatex (two passes).
+% Complete bibliography from the original resume, with verified 2026 updates.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ebgaramond}
+\usepackage[margin=0.65in,top=0.59in,bottom=0.61in,headheight=14pt,headsep=12pt,footskip=22pt]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{fancyhdr}
 \usepackage{hyperref}
-\usepackage{color}
-
-
-%------------------------------------------------
-
-\name{Se Yoon Lee} % Your name to appear at the top
-
-% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
-% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
-
-\address{1002 Neubauer Cir Lindenhurst, IL, 60046} % Main address
-
-\address{(979)~$\cdot$~888~$\cdot$~4107 \\ seyoonlee.stat.math@gmail.com} % Contact information
-
-\address{
-	\href{https://scholar.google.com/citations?user=gp392DIAAAAJ\&hl=en}{Google Scholar} \\
-	\href{https://sites.google.com/view/seyoonlee/home}{Personal Website} \\
-	\href{https://www.linkedin.com/in/se-yoon-lee-phd-b88b10143/}{LinkedIn}
-}
-
-
-
-%----------------------------------------------------------------------------------------
-
+\input{glyphtounicode}
+\pdfgentounicode=1
+\definecolor{accent}{HTML}{243E53}
+\definecolor{muted}{HTML}{555555}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Se Yoon Lee},pdftitle={Se Yoon Lee, PhD - Research Resume},pdfsubject={Statistics, causal inference, clinical trials, and real-world evidence}}
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.3em}
+\setlist[itemize]{leftmargin=1.15em,label=\textbullet,itemsep=2.2pt,topsep=4pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.65em,label={[\arabic*]},itemsep=4pt,topsep=5pt,parsep=0pt,partopsep=0pt,before=\interlinepenalty10000}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\small\color{muted}October 2026}
+\fancyfoot[R]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[L]{\small\color{muted}October 2026}\fancyfoot[R]{\small\color{muted}\thepage}\renewcommand{\headrulewidth}{0pt}}
+\newcommand{\cvsection}[1]{\par\addvspace{10pt}\Needspace{4\baselineskip}{\color{accent}\large\bfseries #1}\par\vspace{3pt}{\color{accent}\hrule height 0.45pt}\vspace{6pt}}
+\newcommand{\compactcvsection}[1]{\par\addvspace{5pt}\Needspace{4\baselineskip}{\color{accent}\large\bfseries #1}\par\vspace{2pt}{\color{accent}\hrule height 0.45pt}\vspace{3pt}}
+\newcommand{\role}[4]{\par\addvspace{7pt}\Needspace{5\baselineskip}\textbf{#1}\hfill #2\par\textit{#3}\hfill\textit{#4}\par}
+\newcommand{\me}{\textbf{Se Yoon Lee}}
+\newcommand{\corr}{\textsuperscript{*}}
+\newcommand{\equal}{\textsuperscript{\ensuremath{\dagger}}}
+\newcommand{\sep}{\enspace\textbar\enspace}
 \begin{document}
-	
-	%----------------------------------------------------------------------------------------
-	%	EDUCATION SECTION
-	%----------------------------------------------------------------------------------------
-	
-	\begin{rSection}{Education}
-		
-		\textbf{Ph.D. Statistics, Texas A\&M University, College Station, U.S.A.} \hfill \textit{May 2021} \\ 
-		Advisor: Prof. Bani K. Mallick
-		\hfill {Overall GPA: 3.78/4}
-		\\
-		\textbf{M.A. Applied Statistics, Yonsei University, Seoul, South Korea} \hfill {\em Feb 2016} \\ 
-		Advisor: Prof. Joseph H.T. Kim
-		\hfill {Overall GPA: 3.86/4}
-		\\
-		{\bf B.S. Mathematics, Yonsei University, Seoul, South Korea} \hfill {\em Feb 2013} \\ 
-		Graduated with the 2nd highest class rank out of 43 students
-		\hfill {Overall GPA: 3.84/4}
-	\end{rSection}
-	
-	\begin{rSection}{Research Interests}
-		Causal Inference, Semiparametric Efficiency Theory, Bayesian Analysis, Clinical Trials, Biostatistics, ML/AI
-		
-	\end{rSection}
-	
-	
-	\begin{rSection}{Dissertation and Thesis}
-		\item[$\cdot$] ``Bayesian Hierarchical Modeling: Application towards Complex and High-dimensional Data,''
-		\textit{Texas A\&M University}, Doctoral Dissertation
-		;
-		\href{https://oaktrust.library.tamu.edu/handle/1969.1/195691}{\underline{\textbf{[Link]}}}
-		\item[$\cdot$] ``Exponentiated generalized Pareto distribution: an alternative to the generalized Pareto distribution,''
-		\textit{Yonsei University}, Master's Thesis
-		;
-		\href{https://library.yonsei.ac.kr/search/detail/CAT000001777455?briefLink=/main/searchBrief?q=Seyoon+lee}{\underline{\textbf{[Link]}}}
-	\end{rSection}
-	
-	
-	%----------------------------------------------------------------------------------------
-	%	WORK EXPERIENCE SECTION
-	%----------------------------------------------------------------------------------------
-	\begin{rSection}{Professional Experience}
-		
-		\begin{rSubsection}{
-				\href{https://www.abbvie.com//}{AbbVie Inc.}
-			}{\em Feb 2025 -- present}{\textbf{Manager, Statistics (Permanent Employment)}}{\em North Chicago, IL}
-			\item Conducted research on modern causal inference methods for augmenting clinical trials with real-world data (RWD).
-			\item Developed advanced survival analysis methods in causal–RWD settings.
-			\item Supported and led various studies within the RWD group (e.g., observational studies, Health Technology Assessment submissions).
-			\item Actively established myself as a causal inference expert (grounded in semiparametric efficiency theory and ML/AI) with strong domain knowledge in the pharmaceutical industry and academia by participating in conferences and publishing in renowned journals.
-		\end{rSubsection}
-		
-		
-		\begin{rSubsection}{
-				\href{https://www.edwards.com/}{Edwards Lifesciences.}
-			}{\em May 2023 -- Feb 2025}{\textbf{Manager, Biostatistics (Permanent Employment)}}{\em Irvine, CA}
-			\item Developed an R code to perform unblinded sample size re-estimation (promising zone approach) using CHW test statistics for a hierarchical composite endpoint, employing the Finkelstein and Schoenfeld methodology.
-			\item Specialized in developing simulation R code for power calculation of Bayesian adaptive design for cardiovascular trials at the regulatory submission level, with expertise in end-to-end coding and Statistical Analysis Plan writing.
-			\item Provided seminars on the topic of Bayesian Medical Device Trials to train biostatisticians ; \href{https://drive.google.com/file/d/1pHxwp4T9Nq2EKNrlxqzy1VxmxcZAERH-/view}{\underline{\textbf{[Link]}}}
-			\item Provided advanced biostatistical supports (e.g., power analysis, primary endpoint analyses, clinical trial designs, etc) to cross-functional teams.
-		\end{rSubsection}
-		
-		
-		\newpage
-		\begin{rSubsection}{
-				\href{https://www.jnjmedtech.com/en-US}{Johnson \& Johnson.}
-			}{\em Apr 2022 -- May 2023}{\textbf{Senior Biostatistician (Permanent Employment)}}{\em Irvine, CA}
-			\item Developed Bayesian adaptive clinical trials designs to evaluate the safety and effectiveness of medical devices (Bayesian basket trial designs, power-prior designs, Bayesian group sequential designs, etc).
-			\item Provided advanced biostatistical supports (e.g., power analysis, primary endpoint analyses, clinical trial designs, etc) to clinicians with main focus on cardiovascular diseases.
-			\item Led working groups of experts (Machine Learning/Statistical Methodology \& Consulting) as leader
-			\item Led the development of basket trial designs and authored Statistical Analysis Plan for SECURE, a Post-Market Study [\href{https://clinicaltrials.gov/ct2/show/NCT04750798}{ClinicalTrials.gov ID: NCT04750798}]
-		\end{rSubsection}
-		
-		
-		\begin{rSubsection}{
-				\href{https://www.amgen.com/}{Amgen Inc.}
-			}{\em May 2021 -- Apr 2022}{\textbf{Scientist - Modeling \& Simulations (Permanent Employment)}}{\em Thousand Oaks, CA}
-			\item 
-			Developed Pharmacokinetics/Pharmacodynamics/Cox hazard regression models for Phase I cancer clinical trials of AMG160 to treat a metastatic castration-resistant prostate cancer (mCRPC).
-			\item 
-			Researched machine learning and deep neural network models to fit single dose data for subsequent simulation of multiple dosing scenarios. 
-		\end{rSubsection}
-		
-		\begin{rSubsection}{
-				\href{https://www.pharma.us.novartis.com/}{Novartis International AG.}
-			}{\em May 2020 -- Aug 2020}{\textbf{Biostatistics Summer Intern (Contract Employment)}}{\em East Hanover, NJ}
-			\item 
-			Developed a Bayesian linear mixed effect model for patients who have wet age-related macular degeneration to predict best-corrected visual acuity over the maintenance phase and suggest a personalized dose regimen. The proposed model has been trained by actual patients' data from HAWK and HARRIER studies (Number of patients is around 1,800 patients). ; \href{https://sites.google.com/view/seyoonlee/home/projects/novartis-summer-internship-project?authuser=0#h.dfc3zhswkx8m}
-			{\underline{\textbf{[Abstract]}}}
-			%; 
-			%\href{https://www.dropbox.com/s/noy7mcoyoo31xj6/wetAMD_Research_Se_Yoon_Lee_PhD.pdf?dl=0}{\underline{\textbf{[Slides]}}}
-		\end{rSubsection}
-		
-		%------------------------------------------------
-		
-		
-		\begin{rSubsection}{
-				\href{https://www.emdserono.com/us-en}{EMD Serono Inc. Merck KGaA.}
-			}{\em May 2019 -- Aug 2019}{\textbf{Pharmacometrics Summer Intern (Contract Employment)}}{\em Billerica, MA}
-			\item 
-			Developed a Bayesian adaptive clinical trial design in Phase I cancer clinical trials, which aimed at utilizing grade information from the Common Toxicity Criteria for Adverse Events provided by the National Cancer Institute. ; 
-			\href{https://sites.google.com/view/seyoonlee/home/projects/merck-group-summer-internship-project?authuser=0#h.lnkjghpa5ikt}
-			{\underline{\textbf{[Abstract]}}}
-			;
-			\href{https://www.dropbox.com/s/dnlynbzl6ojmgwh/ACOP_Se_Yoon_Lee_PhD.pdf?dl=0}
-			{\underline{\textbf{[Poster]}}}
-		\end{rSubsection}
-		
-		
-		\begin{rSubsection}{Texas A\&M University.
-			}{\em Aug 2016 -- May 2021}{\textbf{Graduate Research/Teaching Assistant}}{\em College Station, TX}
-			\item Researched on applications and developments of various statistical models (e.g. non-linear mixed effect model, nonparametric/semiparametric longitudinal model, clustering analysis, classification, hierarchical Poisson model, etc) to various industrial problems arising from biomedical, petroleum, wind energy industries, and COVID-19 outbreak.
-			\item Served as a Teaching Assistant for both undergraduate and graduate courses.
-		\end{rSubsection}
-		
-		
-	\end{rSection}
-	
-	%----------------------------------------------------------------------------------------
-	%	Publications
-	%----------------------------------------------------------------------------------------
-	
-	\begin{rSection}{Publications}
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		\begin{rSubsection}{Peer-Reviewed Publications (*: corresponding author)}{}{}{}
-			
-			\item[] [1]
-			\href{https://icml.cc/virtual/2026/poster/62031}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$} and Jae Kwang Kim. (2026)
-				``MEC: Machine-Learning-Assisted Generalized Entropy Calibration for Semi-Supervised Mean Estimation,''
-				\textit{Forty-third International Conference on Machine Learning}
-				(Accepted; 6,352 accepted among 23,918 reviewed submissions; acceptance rate: 26.6\%)} ;
-				\href{https://recorder-v3.slideslive.com/#/share?share=110691&s=5f718684-cf55-4c25-a8f8-42cf80b85829}{\underline{\textbf{[Video Recording]}}}; \href{https://icml.cc/virtual/2026/poster/62031}{\underline{\textbf{[OpenReview]}}}
-			
-			\item[] [2]
-			\href{https://journals.sagepub.com/doi/abs/10.1177/09622802261427024}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2026)
-				``Asymptotic validity of Schoenfeld’s sample size formula for the Cox proportional hazards model via the Wald test approach,''
-				\textit{Statistical Methods in Medical Research}, 35(4), 681--694.}
-			
-			\item[] [3]
-			\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2025.2575940}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2025)
-				``Power priors and type I error control: constrained borrowing of external control data,''
-				\textit{Journal of Biopharmaceutical Statistics}}
-			
-			\item[] [4]
-			\href{https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70165}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2025)
-				``A note on the sample size formula for a win ratio endpoint,''
-				\textit{Statistics in Medicine}, 44(15--17), e70165.}
-			
-			\item[] [5]
-			\href{https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-18/issue-2/Tail-adaptive-Bayesian-shrinkage/10.1214/24-EJS2317.full}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}, Peng Zhao, Debdeep Pati, Bani K. Mallick. (2024)
-				``Tail-adaptive Bayesian Shrinkage,''
-				\textit{Electronic Journal of Statistics}}
-			
-			\item[] [6]
-			\href{https://www.tandfonline.com/doi/full/10.1080/19466315.2024.2368789?src=exp-la}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2024)
-				``Eliciting the discount parameter in a power prior method on the basis of the type I error consideration,''
-				\textit{Statistics in Biopharmaceutical Research}}
-			
-			\item[] [7]
-			\href{https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-024-02235-0}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2024)
-				``Using Bayesian Statistics in Confirmatory Clinical Trials in the Regulatory Setting: A Tutorial Review,''
-				\textit{BMC Medical Research Methodology}}
-			
-			\item[] [8]
-			\href{https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07793-0}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2023)
-				``A flexible dose-response modeling framework based on continuous toxicity outcomes in phase I cancer clinical trials,''
-				\textit{BMC Trials}}
-			
-			\item[] [9]
-			\href{https://ieeexplore.ieee.org/document/10301539}
-			{Abhinav Prakash, \underline{\textbf{Se Yoon Lee}}, Xin Liu, Lei Liu, Bani Mallick, Yu Ding$^{*}$. (2023)
-				``A Bayesian hierarchical model to understand the effect of terrain on wind turbine power curves,''
-				\textit{IEEE Transactions on Sustainable Energy}}
-			
-			\item[] [10]
-			\href{https://www.mdpi.com/2075-1680/11/9/462}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2022)
-				``The Use of a Log-Normal Prior for the Student t-Distribution,''
-				\textit{Axioms}}
-			
-			\item[] [11]
-			\href{https://www.mdpi.com/2227-7390/10/6/898}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2022)
-				``Bayesian Nonlinear Models for Repeated Measurement Data: An Overview, Implementation, and Applications,''
-				\textit{Mathematics}}
-			
-			\item[] [12]
-			\href{https://www.sciencedirect.com/science/article/pii/S1551714421003931}
-			{\underline{\textbf{Se Yoon Lee}}, Alain Munafo, Pascal Girard, and Kosalaram Goteti$^{*}$. (2022)
-				``Optimization of dose selection using multiple surrogates of toxicity as a continuous variable in Phase I cancer trial,''
-				\textit{Contemporary Clinical Trials};
-				\href{https://github.com/yain22/2PLD}{\underline{\textbf{[Github]}}}}
-			
-			\item[] [13]
-			\href{https://www.tandfonline.com/doi/full/10.1080/03610926.2021.1921214?src=}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2021)
-				``Gibbs sampler and coordinate ascent variational inference: a set-theoretical review,''
-				\textit{Communications in Statistics - Theory and Methods}}
-			
-			\item[] [14]
-			\href{https://rdcu.be/ceg4p}
-			{\underline{\textbf{Se Yoon Lee}$^{*}$} and Bani K. Mallick. (2021)
-				``Bayesian Hierarchical modeling: application towards production results in the Eagle Ford Shale of South Texas,''
-				\textit{Sankhyā: The Indian Journal of Statistics, Series B};
-				\href{https://github.com/yain22/SWM}{\underline{\textbf{[Github]}}}}
-			
-			\item[] [15]
-			\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238996}
-			{Kahkashan Afrin$^\star$, Ashif Iquebal$^\star$, Mostafa Karimi$^\star$, Allyson Larsen$^\star$,
-				\underline{\textbf{Se Yoon Lee}}$^\star$, and Bani K. Mallick$^{\star,*}$. (2020)
-				``Directionally Dependent Multi-View Clustering Using Copula Model,''
-				\textit{PLOS ONE}
-				($^\star$: equal contribution; authors are alphabetically ordered by last name.)}
-			
-			\item[] [16]
-			\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236860}
-			{\underline{\textbf{Se Yoon Lee}*}, Bowen Lei, and Bani K. Mallick. (2020)
-				``Estimation of COVID-19 spread curves integrating global data and borrowing information,''
-				\textit{PLOS ONE};
-				\href{https://github.com/StevenBoys/BHRM}{\underline{\textbf{[Github]}}}}
-			
-			\item[] [17]
-			\href{https://www.tandfonline.com/doi/pdf/10.1080/03610926.2018.1441418?needAccess=true}
-			{\underline{\textbf{Seyoon Lee}}, Joseph H.T. Kim$^{*}$. (2018)
-				``Exponentiated generalized Pareto distribution: Properties and applications towards extreme value theory,''
-				\textit{Communications in Statistics - Theory and Methods}, 48:8, 2014--2038}
-		\end{rSubsection}
-	\end{rSection}
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		\begin{rSection}{Under Review}
-		%\begin{rSubsection}{Initial Review}{}{}{}
-			\item[] [1]
-			\href{}{\underline{\textbf{Se Yoon Lee}$^{*}$}. (2026+)
-				``Reliable Causal Inference for Externally Controlled Single-Arm Trials under Transportability Violations, ''} \textit{Under Review (contact me for the preprint)}
-			\item[] [2]
-			\href{}{\underline{\textbf{Se Yoon Lee}$^{*}$}, Jieying Jiang, David Chen, Weili He, Dai Feng. (2026+)
-				``Applying Ensemble Survival Models to Predict Median Survival Time in Health Technology Assessment, ''} \textit{Under Review}	
-			\item[] [3]
-			\href{}{\underline{\textbf{Se Yoon Lee}$^{*}$}, Yonghyun Kwon, Jae Kwang Kim. (2026+)
-					``MEC-Cox: Machine-Learning-Assisted Generalized Entropy Calibration for ATT Marginal Hazard-Ratio Estimation, ''} \textit{Under Review}; \href{https://arxiv.org/abs/2606.08305}{\underline{\textbf{[arXiv}}}				
-			\item[] [4]
-			\href{}{\underline{\textbf{Se Yoon Lee}$^{*}$}, Jae Kwang Kim. (2026+)
-						``Statistical Optimality of Prediction-Powered Inference, ''} \textit{Under Review}; \href{https://arxiv.org/abs/2606.08730}{\underline{\textbf{[arXiv}}}
-		%\end{rSubsection}
-	\end{rSection}
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		
-		%\begin{rSubsection}{Conference Paper/Poster}{}{}{}
-		%\item[] [1] 
-		%\href{https://github.com/yain22/2PLD/blob/main/Poster/ACOP_Se_Yoon_Lee_PhD.pdf}{\underline{\textbf{Se Yoon Lee}}, Shankar Lanke, Alain Munafo, Pascal Girard, and Kosalaram Goteti. (2020)
-			%``Optimization of dose selection using multiple surrogates of toxicity as continuous variable in Phase I cancer trial,'' \textit{American Conference on Pharmacometrics 11}}
-		%\item[] [2] 
-		%\href{https://github.com/yain22/2PLD/blob/main/Poster/ASCPT-2022-Poster_nlmixr_Final.pdf}{\underline{\textbf{Se Yoon Lee}}, Po-Wei Chen, Naren Narayanan, Sandeep Dutta, and Malidi Ahamadi. (2022)
-			%``Performance of nlmixr vs NONMEM for the Estimation of Pharmacometrics Models with Different Degrees of Non-linearity; an AMGEN experience,'' \textit{American Society for Clinical Pharmacology \& Therapeutics 2022 Annual Meeting}}
-		%\end{rSubsection}
-		
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		
-	
-	\begin{rSection}{Professional Activities}
-		\begin{rSubsection}{
-				Editorial Board Member}{}{}{}
-			\item \href{https://link.springer.com/journal/12874/editorial-board}{BMC Medical Research Methodology } (Impact Factor: 3.9)	
-		\end{rSubsection}
-		\begin{rSubsection}{
-				Invited Peer Reviewers}{}{}{}
-			\item \href{https://neurips.cc/}{Neural Information Processing Systems} (h5-index : 371)
-			\item \href{https://icml.cc/}{International Conference on Machine Learning} (h5-index : 272; Chosen as a Gold Reviewer)
-			\item \href{https://link.springer.com/journal/10462}{Artificial Intelligence Review} (Impact Factor : 8.139)
-			\item \href{https://www.nature.com/nm/}{Nature Medicine} (Impact Factor : 58.7)
-			\item \href{https://onlinelibrary.wiley.com/journal/10970258}{Statistics in Medicine} (Impact Factor: 2.373)
-			\item \href{https://academic.oup.com/biostatistics}{Biostatistics} (Impact Factor: 1.8)
-			\item \href{https://onlinelibrary.wiley.com/journal/15391612}{Pharmaceutical Statistics} (Impact Factor: 1.77)
-			\item \href{https://journals.sagepub.com/home/smm}{Statistical Methods in Medical Research} (Impact Factor: 1.6)
-			\item \href{https://projecteuclid.org/journals/bayesian-analysis}{Bayesian Analysis} (Impact Factor: 3.728)
-			\item \href{https://www.sciencedirect.com/journal/contemporary-clinical-trials-communications}{Contemporary Clinical Trials Communications} (Impact Factor: 1.4)
-			\item \href{https://onlinelibrary.wiley.com/journal/13652362}{European Journal of Clinical Investigation} (Impact Factor: 3.481)
-			\item \href{https://accp1.onlinelibrary.wiley.com/journal/15524604}{The Journal of Clinical Pharmacology} (Impact Factor: 3.126)
-			\item \href{https://www.frontiersin.org/journals/public-health}{Frontiers in Public Health} (Impact Factor: 3.709)
-			\item \href{https://journal.r-project.org/}{The R Journal} (Impact Factor: 3.984)
-			\item \href{https://www.springer.com/journal/10596}{Computational Geosciences} (Impact Factor: 2.948)
-			\item \href{https://www.tandfonline.com/journals/cjas20}{Journal of Applied Statistics} (Impact Factor: 1.416)
-		\end{rSubsection}
-	\end{rSection}
-	
-	
-	\begin{rSection}{HONORS AND AWARDS}
-		{\bf Springer Nature Editor of Distinction Awards 2026} \hfill {\em May 2026} \\ 
-		Recognized among the top 20\% of editors for editorial service to BMC Medical Research Methodology
-		\\
-		{\bf Travel fund for an invited talk at Yonsei University} \hfill {\em Dec 2019} \\ 
-		Given to an invited speaker for the presentation
-		\\
-		{\bf Travel fund for an invited talk at University of Michigan} \hfill {\em Jun 2019} \\ 
-		Given to an invited speaker for an annual meeting about wind energy
-		\\
-		{\bf Travel fund for poster presenter for the Houston Geological Society} \hfill {\em Mar 2018} \\ 
-		Given to a poster presenter 
-		\\
-		{\bf Anant Kshirsagar fellowship} \hfill {\em Jul 2018} \\ 
-		Given to graduate students who demonstrate excellence in making progress in research
-		\\
-		{\bf The 1st place prize in SETCASA poster session in 2018 } \hfill {\em Apr 2018} \\ 
-		Given to only one winner for the poster session 
-		\\
-		{\bf Graduate student travel award for JSM} \hfill {\em Jul 2017, 2018} \\ 
-		Given to graduate students who make a presentation at the conference
-	\end{rSection}
-	
-	
-	
-	
-	\begin{rSection}{Software}
-		\begin{rSubsection}
-			{Software used in papers}{}{}{}
-			\item 
-			\textsf{Bayesian Hierarchical Richards Model} 
-			;
-			Written in R
-			;
-			\href{http://www.plosone.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pone.0236860.s005}
-			{\underline{\textbf{[Download]}}}
-			;
-			\href{https://github.com/StevenBoys/BHRM}{\underline{\textbf{[Github]}}}
-			
-			\item 
-			\textsf{Spatial Weibull Model} 
-			;
-			Written in R
-			;
-			\href{https://github.com/yain22/SWM}
-			{\underline{\textbf{[Github]}}}
-			
-			\item 
-			\textsf{winratiosim} 
-			;
-			Written in R
-			;
-			\href{https://github.com/yain22/winratiosim}
-			{\underline{\textbf{[Github]}}}
-		\end{rSubsection}
-	\end{rSection}
-	
-	
-	\begin{rSection}{Skills}
-		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-			Language & Fluent in English and Korean; Elementary in Chinese and Japanese \\
-			Computer Language & Proficient in R, Python, SQL, Microsoft Access, SAS, and NONMEM\\
-			Certificate & Cognigen NONMEM Workshop
-		\end{tabular}
-	\end{rSection}
-	
-	\begin{rSection}{References}
-		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-			Bani K. Mallick & Distinguished Professor, Texas A\&M University, bmallick@stat.tamu.edu   \\
-			%Debdeep Pati & Professor, Texas A\&M University, debdeep@stat.tamu.edu\\
-			Debdeep Pati & Professor, University of Wisconsin - Madison, dpati2@wisc.edu\\
-			Samiran Sinha & Professor, Texas A\&M University, sinha@stat.tamu.edu\\
-			Alan Dabney & Professor, Texas A\&M University, adabney@stat.tamu.edu
-			%Kosalaram Goteti & Senior Research Director, Merck Group, kosalaram.goteti@emdserono.com\\
-			%Liansheng Zhu & Senior Director, Novartis International AG, liansheng.zhu@novartis.com
-		\end{tabular}
-	\end{rSection}
-	
+\thispagestyle{plain}
+\begin{center}
+{\fontsize{26}{29}\selectfont\bfseries\color{accent}Se Yoon Lee, PhD}\par
+\vspace{5pt}
+Lindenhurst, IL\sep (979) 888-4107\sep\href{mailto:seyoonlee.stat.math@gmail.com}{seyoonlee.stat.math@gmail.com}\par
+\vspace{3pt}
+\href{https://scholar.google.com/citations?user=gp392DIAAAAJ&hl=en}{Google Scholar}\sep
+\href{https://sites.google.com/view/seyoonlee/home}{Website}\sep
+\href{https://www.linkedin.com/in/se-yoon-lee-phd-b88b10143/}{LinkedIn}\sep
+\href{https://github.com/yain22}{GitHub}
+\end{center}
+\vspace{-3pt}
+\cvsection{Research Profile}
+Statistician combining a strong theoretical foundation in causal inference, semiparametric efficiency theory, and Bayesian analysis with professional experience at Big Pharma (AbbVie, Johnson \& Johnson, and Amgen). Strong publication record in leading statistics/biostatistics journals and ML/AI conference proceedings.
+\par\vspace{5pt}
+\textbf{Research areas:} Causal inference; semiparametric efficiency; external controls and data borrowing; Bayesian analysis and theory; survival analysis; machine learning/artificial intelligence.
+
+\cvsection{Education}
+\textbf{PhD in Statistics, Texas A\&M University}\hfill May 2021\par
+Advisor: Bani K. Mallick. Dissertation: \href{https://oaktrust.library.tamu.edu/handle/1969.1/195691}{\textit{Bayesian Hierarchical Modeling: Application towards Complex and High-dimensional Data}.}
+\par\vspace{6pt}
+\textbf{MA in Applied Statistics, Yonsei University}\hfill Feb 2016\par
+Advisor: Joseph H. T. Kim. Thesis: \href{https://library.yonsei.ac.kr/search/detail/CAT000001777455?briefLink=/main/searchBrief?q=Seyoon+lee}{\textit{Exponentiated generalized Pareto distribution: an alternative to the generalized Pareto distribution.}}
+\par\vspace{6pt}
+\textbf{BS in Mathematics, Yonsei University}\hfill Feb 2013\par
+Graduated second in a class of 43 students.
+
+\cvsection{Professional Experience (Permanent Positions)}
+\role{\href{https://www.abbvie.com/}{AbbVie}}{Feb 2025 -- Present}{Manager, Statistics}{North Chicago, IL}
+\begin{itemize}
+\item Develop causal inference methods to augment clinical trials with real-world data and address external-control settings.
+\item Develop survival analysis methods for causal inference and real-world evidence applications.
+\item Lead and support observational studies and statistical work for health technology assessment (HTA) submissions within the real-world data group.
+\end{itemize}
+
+\role{\href{https://www.edwards.com/}{Edwards Lifesciences}}{May 2023 -- Feb 2025}{Manager, Biostatistics}{Irvine, CA}
+\begin{itemize}
+\item Developed R simulations and power calculations for Bayesian adaptive cardiovascular trial designs, and wrote statistical analysis plans for regulatory submissions.
+\item Implemented unblinded sample-size re-estimation using the promising-zone approach and CHW test statistics for Finkelstein--Schoenfeld hierarchical composite endpoints.
+\item Supported cross-functional teams in trial design, power analysis, and primary endpoint analyses; trained biostatisticians through seminars on \href{https://drive.google.com/file/d/1pHxwp4T9Nq2EKNrlxqzy1VxmxcZAERH-/view}{Bayesian medical-device trials}.
+\end{itemize}
+
+\role{\href{https://www.jnjmedtech.com/en-US}{Johnson \& Johnson}}{Apr 2022 -- May 2023}{Senior Biostatistician}{Irvine, CA}
+\begin{itemize}
+\item Developed Bayesian basket, power-prior, and group-sequential designs to evaluate medical-device safety and effectiveness, with a focus on cardiovascular disease.
+\item Led basket-trial design development and authored the statistical analysis plan for the SECURE post-market study (\href{https://clinicaltrials.gov/study/NCT04750798}{NCT04750798}).
+\item Led machine-learning and statistical-methodology/consulting working groups; supported clinicians in power analysis, trial design, and primary endpoint analyses.
+\end{itemize}
+
+\role{\href{https://www.amgen.com/}{Amgen}}{May 2021 -- Apr 2022}{Scientist -- Modeling \& Simulations}{Thousand Oaks, CA}
+\begin{itemize}
+\item Developed pharmacokinetic, pharmacodynamic, and Cox regression models for Phase I AMG160 trials in metastatic castration-resistant prostate cancer.
+\item Investigated machine-learning and deep-neural-network models using single-dose data to simulate multiple-dosing scenarios.
+\end{itemize}
+
+\cvsection{Earlier Research \& Teaching Experience}
+\role{\href{https://www.novartis.com/us-en/}{Novartis}}{May -- Aug 2020}{Biostatistics Summer Intern}{East Hanover, NJ}
+\begin{itemize}
+\item Developed a \href{https://sites.google.com/view/seyoonlee/home/projects/novartis-summer-internship-project?authuser=0#h.dfc3zhswkx8m}{Bayesian linear mixed-effects model} using HAWK and HARRIER data (approximately 1,800 patients) to predict visual acuity during maintenance treatment for wet age-related macular degeneration and inform personalized dosing.
+\end{itemize}
+\role{\href{https://www.emdserono.com/us-en}{EMD Serono, Merck KGaA}}{May -- Aug 2019}{Pharmacometrics Summer Intern}{Billerica, MA}
+\begin{itemize}
+\item Developed a \href{https://sites.google.com/view/seyoonlee/home/projects/merck-group-summer-internship-project?authuser=0#h.lnkjghpa5ikt}{Bayesian adaptive Phase I oncology trial design} incorporating adverse-event toxicity grades to inform dose selection. \href{https://www.dropbox.com/s/dnlynbzl6ojmgwh/ACOP_Se_Yoon_Lee_PhD.pdf?dl=0}{[Poster]}
+\end{itemize}
+\role{Texas A\&M University}{Aug 2016 -- May 2021}{Graduate Research/Teaching Assistant}{College Station, TX}
+\begin{itemize}
+\item Developed and applied hierarchical, nonlinear mixed-effects, longitudinal, clustering, and classification models to biomedical, petroleum, wind-energy, and COVID-19 research.
+\item Served as a teaching assistant for undergraduate and graduate courses.
+\end{itemize}
+
+\cvsection{Peer-Reviewed Publications}
+\textsuperscript{*}Corresponding author.
+\begin{enumerate}
+\item \me\corr\ (2026). \href{https://doi.org/10.1002/sim.70748}{Reliable Bayesian Causal Inference for Externally Controlled Single-Arm Trials Under Transportability Violations}. \textit{Statistics in Medicine}, 45(23--24), e70748.
+\item \me\corr\ and Jae Kwang Kim (2026). \href{https://proceedings.mlr.press/v306/lee26z.html}{MEC: Machine-Learning-Assisted Generalized Entropy Calibration for Semi-Supervised Mean Estimation}. \textit{Proceedings of the 43rd International Conference on Machine Learning}, PMLR 306, 64086--64135.
+\href{https://icml.cc/virtual/2026/poster/62031}{[Conference]}\enspace\href{https://openreview.net/forum?id=kWxN36TDN8}{[OpenReview]}\enspace\href{https://recorder-v3.slideslive.com/#/share?share=110691&s=5f718684-cf55-4c25-a8f8-42cf80b85829}{[Video]}
+\item \me\corr\ (2026). \href{https://doi.org/10.1177/09622802261427024}{Asymptotic validity of Schoenfeld's sample size formula for the Cox proportional hazards model via the Wald test approach}. \textit{Statistical Methods in Medical Research}, 35(4), 681--694.
+\item \me\corr\ (2025). \href{https://doi.org/10.1080/10543406.2025.2575940}{Power priors and type I error control: constrained borrowing of external control data}. \textit{Journal of Biopharmaceutical Statistics}.
+\item \me\corr\ (2025). \href{https://doi.org/10.1002/sim.70165}{A note on the sample size formula for a win ratio endpoint}. \textit{Statistics in Medicine}, 44(15--17), e70165.~\href{https://github.com/yain22/winratiosim}{[GitHub]}
+\item \me\corr\ (2025). \href{https://doi.org/10.1080/19466315.2024.2368789}{Eliciting the discount parameter in a power prior method on the basis of the type I error consideration}. \textit{Statistics in Biopharmaceutical Research}, 17(2), 235--246.
+\item \me\corr, Peng Zhao, Debdeep Pati, and Bani K. Mallick (2024). \href{https://doi.org/10.1214/24-EJS2317}{Tail-adaptive Bayesian shrinkage}. \textit{Electronic Journal of Statistics}.
+\item \me\corr\ (2024). \href{https://doi.org/10.1186/s12874-024-02235-0}{Using Bayesian Statistics in Confirmatory Clinical Trials in the Regulatory Setting: A Tutorial Review}. \textit{BMC Medical Research Methodology}.
+\item \me\corr\ (2023). \href{https://doi.org/10.1186/s13063-023-07793-0}{A flexible dose-response modeling framework based on continuous toxicity outcomes in phase I cancer clinical trials}. \textit{Trials}.
+\item Abhinav Prakash, \me, Xin Liu, Lei Liu, Bani Mallick, and Yu Ding\corr\ (2023). \href{https://ieeexplore.ieee.org/document/10301539}{A Bayesian hierarchical model to understand the effect of terrain on wind turbine power curves}. \textit{IEEE Transactions on Sustainable Energy}.
+\item \me\corr\ (2022). \href{https://www.mdpi.com/2075-1680/11/9/462}{The Use of a Log-Normal Prior for the Student t-Distribution}. \textit{Axioms}.
+\item \me\corr\ (2022). \href{https://www.mdpi.com/2227-7390/10/6/898}{Bayesian Nonlinear Models for Repeated Measurement Data: An Overview, Implementation, and Applications}. \textit{Mathematics}.
+\item \me, Alain Munafo, Pascal Girard, and Kosalaram Goteti\corr\ (2022). \href{https://www.sciencedirect.com/science/article/pii/S1551714421003931}{Optimization of dose selection using multiple surrogates of toxicity as a continuous variable in Phase I cancer trial}. \textit{Contemporary Clinical Trials}. \href{https://github.com/yain22/2PLD}{[GitHub]}
+\item \me\corr\ (2021). \href{https://doi.org/10.1080/03610926.2021.1921214}{Gibbs sampler and coordinate ascent variational inference: a set-theoretical review}. \textit{Communications in Statistics - Theory and Methods}.
+\item \me\corr\ and Bani K. Mallick (2021). \href{https://rdcu.be/ceg4p}{Bayesian Hierarchical modeling: application towards production results in the Eagle Ford Shale of South Texas}. \textit{Sankhy\={a}: The Indian Journal of Statistics, Series B}. \href{https://github.com/yain22/SWM}{[GitHub]}
+\item Kahkashan Afrin, Ashif Iquebal, Mostafa Karimi, Allyson Larsen, \me, and Bani K. Mallick\corr\ (2020). \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238996}{Directionally Dependent Multi-View Clustering Using Copula Model}. \textit{PLOS ONE}. All authors contributed equally and are listed alphabetically by last name.
+\item \me\corr, Bowen Lei, and Bani K. Mallick (2020). \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236860}{Estimation of COVID-19 spread curves integrating global data and borrowing information}. \textit{PLOS ONE}. \href{https://github.com/StevenBoys/BHRM}{[GitHub]}\enspace\href{http://www.plosone.org/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pone.0236860.s005}{[R code]}
+\item \textbf{Seyoon Lee} and Joseph H. T. Kim\corr\ (2018). \href{https://www.tandfonline.com/doi/pdf/10.1080/03610926.2018.1441418?needAccess=true}{Exponentiated generalized Pareto distribution: Properties and applications towards extreme value theory}. \textit{Communications in Statistics - Theory and Methods}, 48(8), 2014--2038.
+\end{enumerate}
+
+\compactcvsection{Manuscripts with Revision or Resubmission Invited}
+\begin{enumerate}[itemsep=1pt,topsep=2pt]
+\item \me\corr\ and Jae Kwang Kim (2026+). \href{https://arxiv.org/abs/2606.08730}{Statistical Optimality of Prediction-Powered Inference}. Rejection with resubmission invited, \textit{Electronic Journal of Statistics}. \href{https://arxiv.org/abs/2606.08730}{arXiv:2606.08730}.
+\item \me\corr, Jieying Jiang, David Chen, Weili He, and Dai Feng (2026+). Applying Ensemble Survival Models to Predict Median Survival Time in Health Technology Assessment. Major revision invited, \textit{Pharmaceutical Statistics}.
+\item \me\corr\ (2026+). A Practical Roadmap for Establishing the Nonexistence of Uniformly Most Powerful Tests. Major revision invited, \textit{Communications in Statistics -- Simulation and Computation}.
+\end{enumerate}
+
+\compactcvsection{Manuscripts Under Review}
+\begin{enumerate}[itemsep=1pt,topsep=2pt]
+\item \me\corr, Yonghyun Kwon, and Jae Kwang Kim (2026+). \href{https://arxiv.org/abs/2606.08305}{MEC-Cox: Machine-Learning-Assisted Generalized Entropy Calibration for ATT Marginal Hazard-Ratio Estimation}. Under review. \href{https://arxiv.org/abs/2606.08305}{arXiv:2606.08305}.
+\item \me\corr\ (2026+). Understanding the Causal-Gap in Externally Controlled Single-Arm Trials: Study Design, Sensitivity Analysis, and Bayesian Borrowing. Under review.
+\item \me\corr\ (2026+). Covariate adjustment in randomized trials: A review of semiparametric efficiency and inference. Under review, \textit{Journal of the American Statistical Association}.
+\item \me\corr\ (2026+). A Unified Semiparametric Framework for Prospective Causal-Gap Sensitivity Analysis Across Randomized, Externally Controlled, and Hybrid Trials. Under review, \textit{Biometrics}.
+\item Yonghyun Kwon, \me, and Jae Kwang Kim (2026+). Bregman Calibration for Transfer Learning under Covariate Shift. Under review.
+\item \me\corr, Jieying Jiang, Yulei He, Weili He, and Dai Feng (2026+). A Flexible Multiple Imputation Approach to Reduce Assessment Schedule Bias in Clinical Trial and Real-World Progression-Free Survival Data. Under review.
+\end{enumerate}
+
+\compactcvsection{Editorial Service \& Honors}
+\textbf{Editorial Board Member,} \href{https://link.springer.com/journal/12874/editorial-board}{\textit{BMC Medical Research Methodology}}.\par\vspace{4pt}
+\textbf{Peer review:} \href{https://neurips.cc/}{NeurIPS}; \href{https://icml.cc/}{ICML} (Gold Reviewer); \href{https://iclr.cc/}{ICLR}; \href{https://aistats.org/}{AISTATS}; \href{https://aaai.org/conference/aaai/}{AAAI}; \href{https://link.springer.com/journal/10462}{\textit{Artificial Intelligence Review}}; \href{https://www.nature.com/nm/}{\textit{Nature Medicine}}; \href{https://onlinelibrary.wiley.com/journal/10970258}{\textit{Statistics in Medicine}}; \href{https://academic.oup.com/biostatistics}{\textit{Biostatistics}}; \href{https://onlinelibrary.wiley.com/journal/15391612}{\textit{Pharmaceutical Statistics}}; \href{https://journals.sagepub.com/home/smm}{\textit{Statistical Methods in Medical Research}}; \href{https://projecteuclid.org/journals/bayesian-analysis}{\textit{Bayesian Analysis}}; \href{https://www.sciencedirect.com/journal/contemporary-clinical-trials-communications}{\textit{Contemporary Clinical Trials Communications}}; \href{https://onlinelibrary.wiley.com/journal/13652362}{\textit{European Journal of Clinical Investigation}}; \href{https://accp1.onlinelibrary.wiley.com/journal/15524604}{\textit{The Journal of Clinical Pharmacology}}; \href{https://www.frontiersin.org/journals/public-health}{\textit{Frontiers in Public Health}}; \href{https://journal.r-project.org/}{\textit{The R Journal}}; \href{https://www.springer.com/journal/10596}{\textit{Computational Geosciences}}; \href{https://www.tandfonline.com/journals/cjas20}{\textit{Journal of Applied Statistics}}.\par\vspace{4pt}
+\textbf{Springer Nature Editor of Distinction Awards}\hfill May 2026\par
+Recognized among the top 20\% of editors for service to \textit{BMC Medical Research Methodology}.\par\vspace{4pt}
+\textbf{Second Place, Biopharmaceutical Section Poster Awards}\hfill 2026\par
+First-author poster: \href{https://ww2.amstat.org/meetings/jsm/2026/onlineprogram/abstract.cfm?sid=8715&tid=8887}{\textit{A Flexible Multiple Imputation Approach to Reduce Assessment Schedule Bias in PFS Analysis.}}\par\vspace{4pt}
+\textbf{Anant Kshirsagar Fellowship} (Jul 2018); \textbf{First Place, SETCASA Poster Session} (Apr 2018).
+
+\clearpage
+\cvsection{Programming \& Languages}
+\textbf{Programming and analytical tools:} R, Python, SAS, SQL, NONMEM, Microsoft Access.\par\vspace{3pt}
+\textbf{Languages:} English and Korean (fluent); Chinese and Japanese (elementary).
+
+\cvsection{References}
+\begin{tabular}{@{}l@{\hspace{18pt}}l@{}}
+\textbf{Bani K. Mallick} & Distinguished Professor, Texas A\&M University, \href{mailto:bmallick@stat.tamu.edu}{bmallick@stat.tamu.edu} \\[5pt]
+\textbf{Debdeep Pati} & Professor, University of Wisconsin--Madison, \href{mailto:dpati2@wisc.edu}{dpati2@wisc.edu} \\[5pt]
+\textbf{Samiran Sinha} & Professor, Texas A\&M University, \href{mailto:sinha@stat.tamu.edu}{sinha@stat.tamu.edu} \\[5pt]
+\textbf{Alan Dabney} & Professor, Texas A\&M University, \href{mailto:adabney@stat.tamu.edu}{adabney@stat.tamu.edu}
+\end{tabular}
+
 \end{document}
-
-
-\begin{rSubsection}{Poster presentations}{}{}{}
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Hierarchical Bayesian modeling: application towards production results in the Eagle}\hfill {\em Mar 2019} 
-	\\
-	{Ford shale of South Texas"}  
-	\\
-	Organization: Houston Geological Society Applied Geoscience Conference, Houston, TX, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Hierarchical Bayesian modeling: application towards production results in the Eagle}\hfill {\em Sep 2018} 
-	\\
-	{Ford shale of South Texas"}  
-	\\
-	Organization: Texas A \& M Conference on Energy, College Station, TX, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Hierarchical Bayesian modeling: application towards petroleum data"}\hfill {\em Apr 2018} 
-	\\
-	Organization: Southern Texas Chapter American Statistical Association, College Station, TX, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Exponentiated Generalized Pareto Distribution: Properties and
-		Applications}\hfill {\em Aug 2017} 
-	\\
-	{Towards Extreme Value Theory"}
-	\\
-	Organization: Joint Statistical Meeting 2017, Baltimore, MD, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{rSubsection}
-
-\begin{rSection}{Invited talks}
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Important statistical issues in Bayesian medical device trials in regulatory settings"}
-	;
-	\href{https://drive.google.com/file/d/1pHxwp4T9Nq2EKNrlxqzy1VxmxcZAERH-/view}
-	{\underline{\textbf{[Slide]}}}
-	\hfill {\em Sep 2023}
-	\\
-	Organization: 2023 Orange County  Biostatistics Symposium
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Prediction of best-corrected visual acuity for wet age-related macular degeneration}  \hfill {\em Aug 2020}
-	\\
-	{ patients in HAWK and HARRIER studies via a Bayesian hierarchical linear model"}
-	\\
-	Organization: Novartis International AG, Internship Project Presentation
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Estimation of COVID-19 spread curves integrating global data and borrowing  information"}  \hfill {\em Jul 2020}
-	\\
-	Organization: Mathophilia 2020, IQAC, Banwarilal Bhalotia College, Asansol, India
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Bayesian Hierarchical Model: Application towards Wind
-		Farm Data"}  \hfill {\em Jun 2020}
-	\\
-	Organization: National Science Foundation, University of Connecticut, Mansfield, CT, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Continuous shrinkage prior revisited: a collapsing behavior and remedy"}  
-	;
-	\href{https://stat.yonsei.ac.kr/stat/board/grad_notice.do?mode=view&articleNo=76831&article.offset=0&articleLimit=10}
-	{\underline{\textbf{[Abstract]}}}
-	\hfill {\em Dec 2019}
-	\\
-	Organization: Yonsei University, Department of Applied Statistics, Seoul, South Korea
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\item[$\cdot$]
-	{``Tutorial: understanding offshore wind energy data and spatial modeling"}  \hfill {\em Jun 2019}
-	\\
-	Organization: National Science Foundation, University of Michigan, Ann Arbor, MI, U.S.A.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{rSection}
